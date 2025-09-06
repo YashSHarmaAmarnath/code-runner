@@ -82,20 +82,6 @@ function App() {
       defaultCode:
         '// C++ code\n#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << "Hello, C++!" << endl;\n    return 0;\n}',
     },
-    {
-      id: "go",
-      name: "GO",
-      // icon: "⚡",
-      icon: (
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/500px-Go_Logo_Blue.svg.png"
-          alt="Go Icon"
-          style={{ width: "48px", height: "24px" }}
-        />
-      ),
-      defaultCode:
-        "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
-    },
   ];
 
   const handleLanguageChange = (newLang, defaultCode) => {
